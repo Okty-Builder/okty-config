@@ -1,0 +1,32 @@
+name: Name
+logo: Logo
+config:
+    -
+        id: group_0
+        label: Général
+        fields:
+            -
+                id: name
+                label: 'Container ID'
+                type: input
+                destination: id
+                value: php
+                base: ''
+                validators: {  }
+                source: {  }
+            -
+                label: ok2
+                destination: version
+                type: select-single
+                base: ''
+                source:
+                    - latest
+                value: latest
+                id: ok2
+            -
+                label: oyes
+                destination: ports
+                type: input
+                base: '1234'
+                value: '5678'
+                id: oyes
